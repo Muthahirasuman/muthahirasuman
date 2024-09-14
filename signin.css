@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.whole.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container {
+    display: table;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    /* background-color: #f1f1f1; */
+}
+.social-login {
+    position: relative;
+    /* text-align: center;
+    display: inline-block; */
+}
+.social-login i{
+    font-size: 20px;
+    color: red;
+}
+#btn2{
+    position: absolute;
+    color: blue;
+    border: 2px solid blue;
+}
+#btn2 i{
+    color: blue;
+}
+.border{
+    text-align: center;
+}
+.border h4{
+    color: gray;
+    font-weight: 500;
+}
+
+.signin-form, .illustration {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.signin-form {
+    width: 40%;
+    height: 562px;
+    padding: 20px;
+    background: #fff;
+    border-radius:0 40px 40px 0 ;
+    text-align: left;
+}
+
+
+.illustration img {
+    border-radius: 40px 0 0 40px;
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 10px; */
+}
+
+.signin-form h2 {
+    margin-bottom: 20px;
+}
+
+.signin-form label {
+    /* display: block; */
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input#username {
+    width: 94%;
+    padding: 10px;
+    margin: 15px 0px 15px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.signin-form input[typpe="username"],
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 15px 0px 15px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.card{
+    position: relative;
+}
+#card-item{
+    position: absolute;
+    right: 0px;
+    font-size: 15px;
+}
+
+.login-form a {
+    color: #6a5acd;
+    text-decoration: none;
+}
+.login-form a:hover{
+    text-decoration: underline;
+}
+
+.login-form .remember-me {
+    margin-bottom: 20px;
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #ff9277;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.social-login button {
+    width: 48%;
+    padding: 12px;
+    margin: 5px 1%;
+    background: #f1f1f1;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    color: red;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff9277;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
